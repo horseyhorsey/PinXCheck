@@ -1,0 +1,16 @@
+﻿<Controls:MetroWindow x:Class="PinballXManager.UserInputDatabaseName"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Title="Insert Database" Height="169" Width="266" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" Loaded="MetroWindow_Loaded">
+    <Grid>
+        <TextBox Controls:TextBoxHelper.Watermark="Database Name..." x:Name="textBoxXmlName" HorizontalAlignment="Left" Height="23" Margin="13,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="233"/>
+
+        <Button Content="Create" HorizontalAlignment="Left" Margin="13,100,0,0" VerticalAlignment="Top" Width="51" Click="Button_Click_1"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="133,100,0,0" VerticalAlignment="Top" Width="48" Click="Button_Click"/>
+        <Label x:Name="labelText" Content="Label" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="43" Width="238"/>
+        <Button Content="IPDB LIST
+" HorizontalAlignment="Left" Margin="69,100,0,0" VerticalAlignment="Top" Width="59" Click="Button_Click_2"/>
+
+    </Grid>
+</Controls:MetroWindow>

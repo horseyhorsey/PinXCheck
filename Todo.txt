@@ -1,0 +1,21 @@
+Gui:
+	Implement buttons right of table & desc to pick from list of tables or description
+	Implement DUPE, makes copy of current database.
+
+	Add option to delete database.
+
+	Add statistics to the row details. Maybe scores.
+
+	Batch change executable tag
+
+	Importing from Hyperspin databases.
+
+	Allow adding to favourites xml?
+
+	Load table DT or FS
+	Load table to editor
+	Load table to editor + script
+	Load table and change physics options
+App:
+
+	Mirror
