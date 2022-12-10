@@ -92,7 +92,7 @@ namespace PinballXManager
             catch (Exception)
             {
                 
-                throw;
+                //throw;
             }
 
 
@@ -100,7 +100,7 @@ namespace PinballXManager
 
         private void MetroWindow_Loaded(object sender, RoutedEventArgs e)
         {
-            CreateMasterTables();
+            //CreateMasterTables(); TODO
 
             lv.Items.Refresh();
 
@@ -637,7 +637,7 @@ namespace PinballXManager
             FileInfo[] fi;
             systemExecutables = new ObservableCollection<PinXSystem>();
 
-            string logo = @"I:\PinballX\Media\System Logos\" + comboBox_syslist.SelectedItem + ".png";
+            string logo = "";//@"I:\PinballX\Media\System Logos\" + comboBox_syslist.SelectedItem + ".png";
             if (File.Exists(logo))
             {
                 uriSource = new Uri(logo);
